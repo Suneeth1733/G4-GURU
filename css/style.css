@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.head-box{
+    background-color: rgb(240, 240, 240);
+    color: black;
+    text-align: center;
+    height: 100vh;
+    background-image: url(../images/kinemaster-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.head-box h1{
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin-top: -50px;
+    animation: blink-text 1s ease-in-out 1s infinite;
+}
+.head-box h2{
+    font-weight: 700;
+    padding-bottom: 15px;
+    color: white;
+    margin-top: 150px;
+}
+.download-section{
+    background-color: cyan;
+    color: black;
+    align-items: center;
+}
+.download-section h2{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.card-body{
+    box-shadow: 5px 5px 20px rgb(165, 165, 165);
+}
+.card-body h5{
+    font-weight: 700;
+}
+.card{
+    margin-bottom: 20px;
+}
+@keyframes blink-text{
+    0%{
+        color: white;
+    }
+    50%{
+        color: yellow;
+        letter-spacing: 3px;
+    }
+    100%{
+        color: white;
+    }
+}
+footer{
+    background-color: black;
+    margin-bottom: 0;
+}
+footer h4{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: cyan;
+    font-weight: lighter;
+}
+@media (max-width:496px){
+
+}
+@media (max-width:360px){
+    .head-box h2{
+        font-size: 20px;
+    }
+    .download-section h2{
+        font-size: 31px;
+    }
+}
