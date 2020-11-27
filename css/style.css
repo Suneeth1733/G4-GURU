@@ -76,6 +76,7 @@ footer h4{
     padding-bottom: 10px;
     color: cyan;
     font-weight: lighter;
+    margin: 0;
 }
 @media (max-width:496px){
 
