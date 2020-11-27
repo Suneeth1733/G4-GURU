@@ -45,12 +45,14 @@ body{
 }
 .card-body{
     box-shadow: 5px 5px 20px rgb(165, 165, 165);
+    border-radius: 20px;
 }
 .card-body h5{
     font-weight: 700;
 }
 .card{
     margin-bottom: 20px;
+    border-radius: 20px;
 }
 @keyframes blink-text{
     0%{
